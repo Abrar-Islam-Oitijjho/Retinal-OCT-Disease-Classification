@@ -46,6 +46,7 @@ This work has been published in IEEE Conference. The link to that can be found i
 - 🛠️ **Extensible**: Designed to be easily extended with new disease categories and imaging modalities.
 
 ## Method
+
 | Step | Description |
 |------|------------|
 | Sample Visualization | Display a few images from each class |
@@ -58,6 +59,7 @@ This work has been published in IEEE Conference. The link to that can be found i
 | Model Training | Train with augmentation, save best weights |
 | Training Curve Plots | Plot accuracy and loss across epochs |
 | Final Evaluation | Load best model and evaluate on test data |
+| Explainability with LIME | Generate visual explanations for predictions to improve interpretability |
 
 ## Result
 
