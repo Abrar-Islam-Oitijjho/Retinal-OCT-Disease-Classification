@@ -138,7 +138,7 @@ Retinal-OCT-Disease-Classification/
 
 ## Associated Publication
 
-[Demystifying Deep Learning Models for Retinal OCT Disease Classification using Explainable AI](https://ieeexplore.ieee.org/abstract/document/9718400)
+For more information please visit: [Demystifying Deep Learning Models for Retinal OCT Disease Classification using Explainable AI](https://ieeexplore.ieee.org/abstract/document/9718400)
 
 ## Contributing
 
