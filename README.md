@@ -50,6 +50,10 @@ This work has been published in IEEE Conference. The link to that can be found i
 
 Utilized [Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images](https://data.mendeley.com/datasets/rscbjbr9sj/3) (public)
 
+#### Example Input: Representative Optical Coherence Tomography (OCT) Images (a) CNV (b) DME (c) DRUSEN (d) NORMAL
+
+<img src="assets/data_sample.gif" width="360">
+
 ## Method
 
 | Step | Description |
@@ -66,11 +70,34 @@ Utilized [Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest 
 | Final Evaluation | Load best model and evaluate on test data |
 | Explainability with LIME | Generate visual explanations for predictions to improve interpretability |
 
+#### Proposed 6-layer System Architecture
+
+<img src="assets/custome_cnn.gif" width="360">
+
 ## Result
 
-### Example Input
+#### Model Accuracy & Loss
 
-<img src="assets/data_sample.gif" width="180">
+<p>
+  <img src="results/accuracy.png" width="300">
+  <img src="results/loss.png" width="295">
+</p>
+
+#### Confusion Matrix of the Proposed Model
+
+<img src="results/cnf.png" width="300">
+
+#### Model Performance
+
+<img src="results/metrics.png" width="300">
+
+#### Model Explanation with Xai
+
+<img src="assets/pred_cnv.gif" width="360">
+<img src="assets/pred_dme.gif" width="360">
+<img src="assets/pred_drusen.gif" width="360">
+<img src="assets/pred_nromal.gif" width="360">
+
 
 ## Quick Start
 
