@@ -89,9 +89,9 @@ Utilized [Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest 
 
 #### Model Performance
 
-<img src="results/metrics.png" width="300">
+<img src="results/metrics.PNG" width="360">
 
-#### Model Explanation with Xai
+#### Model Explanation with Xai (CNV, DME, DRUSEN, Normal)
 
 <img src="assets/pred_cnv.gif" width="360">
 <img src="assets/pred_dme.gif" width="360">
@@ -125,6 +125,10 @@ Follow the instructions within the notebook to train and evaluate the model.
 
 ```
 Retinal-OCT-Disease-Classification/
+├── 📁 assets/
+├── 📁 data_sample/
+├── 📁 related_articles/
+├── 📁 results/
 ├── 📄 retinal-xai-transfer-learning-vgg.ipynb  # Main Jupyter Notebook
 ├── 📄 OCT_CUSTOM_model.h5                      # The model
 ├── 📄 OCT_CUSTOM_weight.h5                     # The model's weight
