@@ -19,6 +19,7 @@ A deep learning pipeline for classifying retinal OCT images into four disease ca
 
 - [About](#about)
 - [Features](#features)
+- [Data](#data)
 - [Method](#method)
 - [Result](#result)
 - [Quick Start](#quick-start)
@@ -45,6 +46,10 @@ This work has been published in IEEE Conference. The link to that can be found i
 - 🔄 **Transfer Learning**: Leverages pre-trained models for faster training and improved performance.
 - 🛠️ **Extensible**: Designed to be easily extended with new disease categories and imaging modalities.
 
+## Data
+
+Utilized [Large Dataset of Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images](https://data.mendeley.com/datasets/rscbjbr9sj/3) (public)
+
 ## Method
 
 | Step | Description |
@@ -62,6 +67,10 @@ This work has been published in IEEE Conference. The link to that can be found i
 | Explainability with LIME | Generate visual explanations for predictions to improve interpretability |
 
 ## Result
+
+### Example Input
+
+<img src="assets/data_sample.gif" width="180">
 
 ## Quick Start
 
